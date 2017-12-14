@@ -1,0 +1,11 @@
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.footer-item-flex {
+    flex: 0 1 auto;
+    height: 50px;
+}
