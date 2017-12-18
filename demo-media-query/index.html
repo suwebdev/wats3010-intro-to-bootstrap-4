@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="normalize.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+
+        <div class="container content">
+            <h1>BS4 Media Queries Demo</h1>
+            <p class="lead">This page demonstrates blending custom media queries with Bootstrap 4 support for responsive styles.</p>
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row align-items-end">
+              <div class="col-12 col-md-8 cta-container">
+                <h2>Call to ACTION!</h2>
+                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Cras dapibus. Praesent ac massa at ligula laoreet iaculis.</p>
+                <button class="cta-button">Click Here</button>
+              </div>
+              <div class="col-12 col-md-4 promo-text">
+                  <p>Praesent metus tellus, elementum eu, purus!</p>
+              </div>
+            </div>
+
+            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+            <div class="row testimonials-container">
+              <div class="col-6 col-md-4">
+                  <p class="img-container"><img src="http://lorempixel.com/200/200/people/" class="img-thumbnail img-fluid"></p>
+                  <blockquote class="blockquote">
+                    <p>Phasellus a est. Pellentesque iaculis nunc ac metus bibendum commodo eros a enim.</p>
+                    <footer class="blockquote-footer">Person Name <cite title="Source Title">Company</cite></footer>
+                  </blockquote>
+              </div>
+              <div class="col-6 col-md-4">
+                  <p class="img-container"><img src="http://lorempixel.com/200/200/people/" class="img-thumbnail img-fluid"></p>
+                  <blockquote class="blockquote">
+                    <p>Nulla sit amet est. Etiam iaculis nunc ac metus bibendum sed, posuere ac, mattis non, nunc.</p>
+                    <footer class="blockquote-footer">Person Name <cite title="Source Title">Company</cite></footer>
+                  </blockquote>
+              </div>
+              <div class="col-6 col-md-4">
+                  <p class="testimonial-img-container"><img src="http://lorempixel.com/200/200/people/" class="img-thumbnail img-fluid"></p>
+                  <blockquote class="blockquote">
+                    <p>Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Praesent egestas tristique nibh.</p>
+                    <footer class="blockquote-footer">Person Name <cite title="Source Title">Company</cite></footer>
+                  </blockquote>
+              </div>
+            </div>
+
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row footer">
+              <div class="col-6">
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <h3>BS 4 MQ Demo</h3>
+                <p class="lead">
+                  Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum.
+                </p>
+              </div>
+            </div>
+        </div>
+
+
+        <!-- <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="js/plugins.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script> -->
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>

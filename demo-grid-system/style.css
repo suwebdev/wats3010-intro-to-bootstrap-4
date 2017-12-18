@@ -1,0 +1,57 @@
+div {
+    border: 1px solid black;
+  }
+  .container, .container-fluid {
+    background-color:lightpink;
+  }
+  
+  /* xs */
+  @media (min-width: 320px) {
+    body {
+      background-color: lightgrey;
+    }
+    #width-val:before {
+      content: "320px";
+    }
+  }
+  
+  /* sm */
+  @media (min-width: 576px) {
+    body{
+    background-color:lightsalmon;
+    }
+    #width-val:before {
+      content: "576px";
+    }
+  }
+  /* md */
+  @media (min-width: 768px) {
+    body{
+    background-color:lightgreen;
+    }
+    #width-val:before {
+      content: "768px";
+    }
+  }
+  
+  /* lg */
+  @media (min-width: 992px) {
+    body{
+    background-color:cyan;
+    }
+    #width-val:before {
+      content: "992px";
+    }
+  }
+  /* xl */
+  @media (min-width: 1200px) {
+    body{
+    background-color:plum;
+    }
+    #width-val:before {
+      content: "1200px";
+    }
+  }
+  
+  
+  
