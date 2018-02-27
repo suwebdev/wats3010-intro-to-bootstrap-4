@@ -86,7 +86,9 @@ requirements.
   * You may have more links in your navigation menu if you choose
 * In the `index.html` file, find the `TODO` comment indicating where you should modify the footer contents to include  left and right aligned footer containers that hold the copyright, date and your name. Use flexbox CSS styles to implement the left/right horizontal positioning.
 * Update `404.html` to reflect the actual IA of your site.
-* Add the images you have chosen for your site to each page as needed.
+* Add the images you have chosen for your site to each page as needed (be sure to use the `img-responsive` class on all images that should respond to screen resizing).
+* Use at least two advanced CSS selectors that utilize one or more of the following: attribute selector, pseudoclass, conditional selector.
+* Use pseudoclasses, transitions, and animations to create at least two custom instances of interactive styling.
 
 
 ### Stretch Goals
