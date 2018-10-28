@@ -23,7 +23,7 @@ gulp.task('vendor', function() {
 })
 
 // Default task
-gulp.task('default', ['vendor']);
+gulp.task('default', gulp.parallel('vendor'));
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
@@ -35,7 +35,7 @@ gulp.task('browserSync', function() {
 });
 
 // Dev task
-gulp.task('dev', ['browserSync'], function() {
+gulp.task('dev',gulp.parallel('browserSync',function() {
   gulp.watch('./css/*.css', browserSync.reload);
   gulp.watch('./*.html', browserSync.reload);
-});
+}));
