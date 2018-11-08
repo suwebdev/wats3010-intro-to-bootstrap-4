@@ -31,7 +31,8 @@
         "font-awesome": "^4.7.0",
         "jquery": "3.3.1",
         "popper": "^1.0.1",
-        "cryptiles": ">=4.1.2"
+        "cryptiles": ">=4.1.2",
+        "cached-path-relative": ">=1.0.2"
     },
     "devDependencies": {
         "browser-sync": "^2.26.3",
