@@ -89,6 +89,7 @@ requirements.
 * Add the images you have chosen for your site to each page as needed (be sure to use the `img-responsive` class on all images that should respond to screen resizing).
 * Use at least two advanced CSS selectors that utilize one or more of the following: attribute selector, pseudoclass, conditional selector.
 * Use pseudoclasses, transitions, and animations to create at least two custom instances of interactive styling.
+* remove all html files that you are not using so that you have a clean looking file system.
 
 
 ### Stretch Goals
