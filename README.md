@@ -109,6 +109,8 @@ This repository uses the Modern Business theme from [http://startbootstrap.com](
 The Modern Business theme from Start Bootstrap was created by and is maintained
 by David Miller, Owner of Blackrock Digital.
 
+[Modern Business Template](https://github.com/BlackrockDigital/startbootstrap-modern-business)
+
 [https://twitter.com/davidmillerskt](https://twitter.com/davidmillerskt)
 
 [https://github.com/davidtmiller](https://github.com/davidtmiller)
@@ -116,5 +118,5 @@ by David Miller, Owner of Blackrock Digital.
 Start Bootstrap is based on the Bootstrap framework created by Mark Otto and
 Jacob Thorton.
 
-Start Bootstrap and Modern Business are Copyright 2013-2016 Blackrock Digital
+Start Bootstrap and Modern Business are Copyright 2013-2019 Blackrock Digital
 LLC. Used with permission under MIT License.
