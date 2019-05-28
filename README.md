@@ -104,7 +104,7 @@ by attempting some of these stretch goals.
 
 ## Acknowledgements
 
-This repository uses the Modern Business theme from [http://startbootstrap.com](http://startbootstrap.com).
+This repository uses the Modern Business theme from [https://startbootstrap.com](http://startbootstrap.com).
 
 The Modern Business theme from Start Bootstrap was created by and is maintained
 by David Miller, Owner of Blackrock Digital.
