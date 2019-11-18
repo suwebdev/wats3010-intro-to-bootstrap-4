@@ -76,3 +76,15 @@
       margin-top: 20px;
   }
 }
+.row
+{
+    transform: initial;  
+    transition: transform 2s ease;
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}

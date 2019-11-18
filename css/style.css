@@ -8,3 +8,18 @@
     flex: 0 1 auto;
 
 }
+
+.rotate {
+    transform: initial;
+    transition: transform 2s ease;
+}
+.rotate:hover
+{
+    transform: rotate(5deg);
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
